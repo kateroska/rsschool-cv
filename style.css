@@ -16,10 +16,19 @@ body {
   padding: 32px 0 32px;
 }
 
-.header .contacts,
-.footer .contacts {
+.header .container,
+.footer .container {
+  display: flex;
+  justify-content: space-around;
+  text-align: right;
+  align-items: center;
   max-width: 1408px;
   text-align: right;
+}
+
+nav ul li {
+  list-style-type: none;
+  font-weight: bold;
 }
 
 a {
